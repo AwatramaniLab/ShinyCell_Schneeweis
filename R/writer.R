@@ -1938,7 +1938,7 @@ wrUImain <- function(prefix, subst = "", ptsiz = "1.25") {
              '      )  # End of column (6 space) \n',
              '    )    # End of fluidRow (4 space) \n',
              '  )      # End of tab (2 space) \n',
-             '   \n'
+             '   \n',
              ' ### Tab1.e1: Spatial Mapping \n',
              'tabPanel( \n',
              '  HTML("Spatial Mapping"), \n',
