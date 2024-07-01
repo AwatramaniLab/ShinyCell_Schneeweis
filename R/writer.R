@@ -1937,7 +1937,7 @@ wrUImain <- function(prefix, subst = "", ptsiz = "1.25") {
              '                              min = 4, max = 20, value = 10, step = 0.5)) \n',
              '      )  # End of column (6 space) \n',
              '    )    # End of fluidRow (4 space) \n',
-             '  )      # End of tab (2 space) \n',
+             '  ),      # End of tab (2 space) \n',
              '   \n',
              ' ### Tab1.e1: Spatial Mapping \n',
              'tabPanel( \n',
@@ -1980,7 +1980,7 @@ wrUIend <- function(footnote) {
              '  href = "https://github.com/SGDDNB/ShinyCell",target="_blank")), \n',
              'br(),br(),br(),br(),br() \n',
              '))) \n',
-             ' \n',
+             ') \n',
              ' \n',
              ' \n',
              ' \n')
