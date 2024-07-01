@@ -1944,7 +1944,7 @@ wrUImain <- function(prefix, subst = "", ptsiz = "1.25") {
              '  HTML("Spatial Mapping"), \n',
              '  h4("Spatial mapping of clusters in the SNc"), \n',
              '  "In this tab, users can visualise where in the brain ", \n',
-             '  "the clusters are found. ",  \n',
+             '  "the clusters are found. "  \n',
              '  \n')
 }
 
