@@ -1945,7 +1945,12 @@ wrUImain <- function(prefix, subst = "", ptsiz = "1.25") {
              '  h4("Spatial mapping of clusters in the SNc"), \n',
              '  "In this tab, users can visualise where in the brain ", \n',
              '  "the clusters are found. "  \n',
-             '  \n')
+             '  \n',
+             'br(),br(),\n',
+             'fluidRow(column(3, h4("Cluster"))), \n', 
+             'fluidRow(column(6, selectInput("spatialcluster", "Choose Cluster:", choices = choice_clusters))),\n',
+             'fluidRow(column(6, plotOutput("spatial_tab",width = "50%")), column(6, imageOutput("spatialclustermap"))),\n',
+)
 }
 
 #' Write code for final portion of ui.R
